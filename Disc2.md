@@ -24,12 +24,17 @@ Their collective efforts contribute to a more secure and privacy-respecting digi
 
 References:</p><p>
 Barwell, J. (2024) The GDPR, ICO, and Data Protection in the UK: A Critical Analysis. Available from: 
-https://www.linkedin.com/pulse/gdpr-ico-data-protection-uk-critical-analysis-john-barwell-xfy7e/ [Accessed 12 July 2024]</p><p>
+https://www.linkedin.com/pulse/gdpr-ico-data-protection-uk-critical-analysis-john-barwell-xfy7e/ [Accessed 12 July 2024]
+</p> <p>
 Burgess, M. (2020) What is GDPR? The summary guide to GDPR compliance in the UK. Wired. Available from: 
-https://www.wired.com/story/what-is-gdpr-uk-eu-legislation-compliance-summary-fines-2018/  [Accessed 12 July 2024]</p><p>
+https://www.wired.com/story/what-is-gdpr-uk-eu-legislation-compliance-summary-fines-2018/  [Accessed 12 July 2024]
+</p><p>
 European Commission. (2019) Communication from the commission to the European parliament and the council: 
 Data protection rules as a trust-enabler in the EU and beyond – taking stock. Available from: 
-https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52019DC0374 [Accessed 12 July, 2024].</p><p>
-ICO. (2021) The Guide to NIS. Available from: https://ico.org.uk/for-organisations/the-guide-to-nis/ [Accessed 12 July 2024]</p><p>
-IRIS FMP (N.D.) The difference between UK and EU GDPR. Available from: https://fmpglobal.com/resources/useful-info/the-difference-between-uk-and-eu-gdpr/ [Accessed 28 June 2024]</p><p>
+https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52019DC0374 [Accessed 12 July, 2024].
+</p><p>
+ICO. (2021) The Guide to NIS. Available from: https://ico.org.uk/for-organisations/the-guide-to-nis/ [Accessed 12 July 2024]
+</p><p>
+IRIS FMP (N.D.) The difference between UK and EU GDPR. Available from: https://fmpglobal.com/resources/useful-info/the-difference-between-uk-and-eu-gdpr/ [Accessed 28 June 2024]
+</p><p>
 Wolford, B. (N.D.) What is GDPR, the EU’s new data protection law?. Available from: https://gdpr.eu/what-is-gdpr/ [Accessed 12 July 2024].</p>
