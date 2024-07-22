@@ -105,3 +105,56 @@ coursework, as mastering coding is essential for any data scientist. My interest
 latest technologies and best practices. This ongoing learning will help me effectively manage and analyze data, ultimately contributing to more informed decision-making in the pharmaceutical
 industry.
 </p>
+
+### References:
+
+<p>
+Abrahams, T., O., Ewuga, S., K., Dawodu, S., O., Adegbite, A., O., Hassan, A., O. (2024) A Review Of Cybersecurity Strategies In Modern Organizations: Examining The Evolution And Effectiveness Of Cybersecurity Measures For Data Protection. Computer Science & IT Research Journal 5(1): 1-25. DOI: 10.51594/csitrj.v5i.699
+</p><p>
+Ahmed, A. (2024) What are the Main Advantages of Relational Database Model. Journal - Product Development.  Available from https://hapy.co/journal/advantages-of-relational-database/ [Accessed 01 July 2024]
+</p><p>
+Airbyte. (2023) SQL vs NoSQL: A Comparison of Database Technologies for Data Engineers Available at: https://airbyte.com/data-engineering-resources/sql-vs-nosql [Accessed 10 July 2024].
+</p><p>
+Bammdi, T., R., Gutta, L., M., Kotagiri, A., Samayamantri, L., S., Vaddy, R., K. (2024) The Crucial Role Of Data Quality In Automated Decision-Making Systems. International Journal of Management Education for Sustainable Development 7(7). Available from: https://www.ijsdcs.com/index.php/IJMESD/article/view/442/181 [Accessed 10 July 2024]
+</p><p>
+Bell, M. (2023) Mitigating Data Loss Threats from ‘Dirty’ Data. Forbes. Available from: https://www.forbes.com/sites/forbestechcouncil/2023/09/15/mitigating-data-loss-threats-from-dirty-data/#:~:text=Failing%20to%20maintain%20healthy%20data,faulty%20conclusions%20and%20costly%20mistakes. [Accessed 8 June 2024]
+</p><p>
+Borgini, J. (2023) Top advantages and disadvantages of IoT in business. Available from: https://www.techtarget.com/iotagenda/tip/Top-advantages-and-disadvantages-of-IoT-in-business [Accessed 15 May 2024] 
+</p><p>
+Chiranjiv, R. (2024) Building a World-Class Data Science & Machine Learning Practice. Forbes. Available from: https://www.forbes.com/sites/forbestechcouncil/2024/06/05/building-a-world-class-data-science--machine-learning-practice/ [Accessed 6 June 2024]
+</p><p>
+Constantinos J., Stefanou, Christos S., Stafyla, A. (2003) CRM and customer‐centric knowledge management: an empirical research.  Business Process Management Journal 9(5): 617-634. DOI 10.1108/14637150310496721         
+</p><p>
+Devathon. (2021) SQL & NoSQL comparison: MySQL vs (MongoDB & Cassandra), PostgreSQL vs (MongoDB & Cassandra). Available at: https://devathon.com/blog/sql-vs-nosql-mysql-vs-postgresql-vs-mongodb-vs-cassandra/ [Accessed 10 July 2024].
+</p><p>
+Dobriyal, V. (2024) How Effective Data Governance Fuels Business Growth. Forbes. Available from: https://www.forbes.com/sites/forbesbusinesscouncil/2024/05/16/how-effective-data-governance-fuels-business-growth/ [Accessed 7 June 2024]
+</p><p>
+Fashakin, A. (2023) MongoDB vs PostgreSQL: A Detailed Database Comparison. Available at: https://blog.ferretdb.io/mongodb-vs-postgresql-database-comparison/ [Accessed 10 July 2024].
+</p><p>
+Flavin, B. (2022) Internet of Things: Weighing the Pros and Cons. Available from:  https://www.rasmussen.edu/degrees/technology/blog/internet-of-things-pros-and-cons/ [Accessed 15 May 2023] 
+</p><p>
+Guerola-Navarro, V., Gil-Gomez, H., Oltra-Badenes, R. Customer relationship management and its impact on entrepreneurial marketing: a literature review. International Entrepreurship and Management Journal 20(507–547). DOI:  https://doi.org/10.1007/s11365-022-00800-x
+</p><p>
+Haworth, J. (2023) Deconstructing Telemetry Pipelines: Streamlining Data Management for the Future. Forbes. Available from: https://www.forbes.com/sites/forbestechcouncil/2023/12/01/deconstructing-telemetry-pipelines-streamlining-data-management-for-the-future/ [Accessed 6 June 2024]
+</p><p>
+Hop. (2023) How Data Science is Revolutionizing the Biotech Industry. Available form: https://www.linkedin.com/pulse/how-data-science-revolutionizing-biotech-industry-hophr/ [Accessed: 21.July.2024]
+</p><p>
+IIoT World. (2022) The limitations of IIoT. Available from:  https://www.iiot-world.com/industrial-iot/connected-industry/the-limitations-of-iiot/ [Accessed 15 May 2024]
+</p><p>
+Michener, W.K. (2015) Ten simple rules for creating a good data management plan. PLoS computational biology, 11(10) 1004525. Available from: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004525 [Accessed 25 May 2024]
+ </p><p>
+Mullins, C., S. (2023) Scalability and Performance: Different but Crucial Database Management Capabilities. Available from: https://www.dbta.com/Editorial/Think-About-It/Scalability-and-Performance-Different-but-Crucial-Database-Management-Capabilities-161866.aspx [Accessed 10 July 2024]
+</p><p>
+Munappy, A.R., Bosch, J. & Olsson, H.H. (2020) Data pipeline management in practice: Challenges and opportunities. In Product-Focused Software Process Improvement: 21st International Conference, PROFES 2020, Turin, Italy, November 25–27, 2020, Proceedings 21 (168-184). Springer International Publishing. Available from: https://research.chalmers.se/publication/523476/file/523476_Fulltext.pdf [Accessed 28 May 2024]
+</p><p>
+Oliveira, A., L. (2019) Biotechnology, Big Data and Artifical Intelligence. Wiley Analytical Science, Biotechnology Journal 14(8).  DOI: https://doi.org/10.1002/biot.201800613 
+ </p><p>
+Petnaik, M. (2023) Advantages and Disadvantages of IoT (Internet of Things). Available from : https://www.almabetter.com/bytes/articles/advantages-and-disadvantages-of-iot [Accessed 15 May 2024]
+Scylla. (2024) Database Scalability. Available from: https://www.scylladb.com/glossary/database-scalability/#:~:text=A%20scalable%20database%20design%20can,experience%20even%20as%20demand%20increases. [Accessed 15 July 2024]
+ </p><p>
+Tobin, D. (2024) Mastering Data Compliance: Tips, Strategies, and Best Practices. Available from: https://www.integrate.io/blog/mastering-data-compliance-tips-strategies-and-best-practices/ [Accessed 10 July 2024]
+</p><p>
+TRIGYN technologies. (2024) Big Data Governance: Ensuring Quality, Compliance, and Security. Available from: https://www.trigyn.com/insights/big-data-governance-ensuring-quality-compliance-and-security [Accessed 11 July 2024]
+ </p><p>
+Vitasek, K. (2023) Clean up your Data to Improve your Supply Chain. Forbes. Available from: https://www.forbes.com/sites/katevitasek/2023/07/12/clean-up-your-data-to-improve-your-supply-chain/ [Accessed 4 June 2024]
+</p>
