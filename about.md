@@ -1,5 +1,5 @@
 # About me
-
+ongoing....
 
 ### Education
 
@@ -9,6 +9,17 @@
 
 ### Work Experience
 
-Biotechnologist (October 2022 - Present)
+Biotechnologist (October 2022 - Juli 2024)
+Bioprocess Engineer (August 2024 - present)
 
-#### Technical Skills: Python, SQL, R
+#### Technical Skills: 
+
+ongoing....
+
+#### Skill Matrix
+
+ongoing....
+
+### PDP 
+
+ongoing....
