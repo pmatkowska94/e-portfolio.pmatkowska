@@ -9,8 +9,9 @@ ongoing....
 
 ### Work Experience
 
-Biotechnologist (October 2022 - Juli 2024)
-Bioprocess Engineer (August 2024 - present)
+<p> Biotechnologist (October 2022 - Juli 2024) </p>
+
+<p>Bioprocess Engineer (August 2024 - present) </p>
 
 #### Technical Skills: 
 
@@ -20,6 +21,6 @@ ongoing....
 
 ongoing....
 
-### PDP 
+#### PDP 
 
 ongoing....
