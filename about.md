@@ -9,9 +9,9 @@ ongoing....
 
 ### Work Experience
 
-<p> Biotechnologist (October 2022 - Juli 2024) </p>
-
 <p>Bioprocess Engineer (August 2024 - present) </p>
+
+<p> Biotechnologist (October 2022 - Juli 2024) </p>
 
 #### Technical Skills: 
 
