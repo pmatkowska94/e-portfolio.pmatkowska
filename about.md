@@ -13,7 +13,7 @@ ongoing....
 
 <p> Biotechnologist (October 2022 - Juli 2024) </p>
 
-###Professional Background
+### Professional Background
 <p>
   As a Bioprocess Specialist and Data Scientist, I operate at the intersection of biotechnology and data analytics, bringing together my expertise in both fields to drive innovation and efficiency in a process 
   development environment. Here, I have the opportunity to apply a blend of skills honed through rigorous academic training and hands-on experience, shaping advanced bioprocess strategies grounded in data-driven 
@@ -67,7 +67,7 @@ ongoing....
 
 ### PDP 
 
-####Current Focus Areas
+#### Current Focus Areas
 1. Communication and Leadership Skills
 
 <p>
@@ -107,7 +107,7 @@ Apply programming knowledge to current projects to reinforce skills.
 Work on personal projects or challenges to explore new programming techniques and algorithms.
 </p>
 
-####Future Goals
+#### Future Goals
 
 1. Machine Learning and Predictive Modeling
 
@@ -121,7 +121,7 @@ Work on machine learning projects to build a practical understanding of algorith
 Seek mentorship from experts in machine learning and predictive modeling to gain insights and guidance.
   </p>
   
-####Long-Term Vision
+#### Long-Term Vision
 To leverage an interdisciplinary approach in bioprocess and data science, combining biotechnology expertise with predictive analytics, ultimately enhancing bioprocess efficiency and innovation.
 
 
