@@ -47,48 +47,143 @@
                 <h2>
                  CNN Model for Image Recognition on the CIFAR-10 Dataset
                 </h2>
+		<h3>
+		Model Evaluation: CNN project
+		</h3>
               </p>
-                
+               The CNN project was a valuable learning experience that deepened my understanding of neural networks and
+								their practical applications. Despite initial challenges
+								with limited Python experience, I successfully implemented
+								a model for image classification, covering key stages such
+								as dataset preprocessing, architecture design, 
+								parameter tuning, and performance evaluation. The project
+								highlighted the iterative nature of deep learning and the 
+								importance of tailoring models to specific tasks. Working 
+								independently enhanced my problem-solving skills and 
+								confidence, and the outcomes demonstrated the potential 
+								of CNNs to address complex problems effectively. 
               </p>
-                <p>
+		<h3>Code Summary</h3>
+<ol>
+    <li>
+        <strong>Importing Libraries and Loading Data:</strong> 
+        The CIFAR-10 dataset is loaded, which contains 60,000 32x32 RGB images across 10 classes (e.g., airplanes, cats, trucks).
+    </li>
+    <li>
+        <strong>Visualizing Data:</strong> 
+        A grid of images from the training dataset is plotted along with their class names. This step provides an intuitive understanding of the dataset.
+    </li>
+    <li>
+        <strong>Data Preprocessing:</strong> 
+        Images are normalized by scaling pixel values to the range [0, 1] to speed up training and improve convergence. Labels are one-hot encoded using <code>to_categorical()</code> to match the model's softmax output.
+    </li>
+    <li>
+        <strong>Splitting Validation Data:</strong> 
+        A subset of training data (10,000 samples) is reserved for validation, helping to monitor performance during training.
+    </li>
+    <li>
+        <strong>A deep CNN is constructed with:</strong>
+        <ul>
+            <li>Convolutional layers to extract image features.</li>
+            <li>Batch normalization to stabilize learning.</li>
+            <li>Pooling layers for dimensionality reduction.</li>
+            <li>Dropout layers to prevent overfitting.</li>
+            <li>Fully connected Dense layers for classification.</li>
+            <li>A final softmax layer to predict probabilities for 10 classes.</li>
+        </ul>
+    </li>
+	<img src="images/BD_6.jpg" alt="" />
+    <li>
+        <strong>The model is compiled with:</strong>
+        <ul>
+            <li>Categorical Crossentropy as the loss function (suitable for multiclass classification).</li>
+            <li>Adam optimizer for adaptive learning.</li>
+            <li>Metrics include accuracy.</li>
+        </ul>
+        Early stopping is applied to avoid overfitting by halting training when the validation loss stops improving for 10 epochs. Training is performed for a maximum of 100 epochs with a batch size of 32.
+    </li>
+    <li>
+        <strong>Evaluation:</strong> 
+        The test dataset is used to evaluate the model's performance in terms of accuracy and loss.
+    </li>
+    <li>
+        <strong>Metrics Analysis:</strong> 
+        Training and validation metrics (accuracy and loss) are plotted across epochs to analyze learning behavior.
+    </li>
+    <li>
+        <strong>Predictions and Reporting:</strong> 
+        Predictions on the test dataset are made, and a classification report and confusion matrix are generated to analyze precision, recall, and F1 scores.
+    </li>
+</ol>
+<h3>Outcomes</h3>
+<ol>
+    <li>
+        <strong>Training Metrics:</strong> 
+        Training accuracy reaches 94%, and validation accuracy is 99.8% in the final epochs, indicating effective learning with minimal overfitting.
+    </li>
+    <li>
+        <strong>Test Accuracy:</strong> 
+        The test accuracy is 87.15%, showing that the model generalizes well to unseen data but still has room for improvement.
+    </li>
+    <li>
+        <strong>Confusion Matrix and Classification Report:</strong>
+        <ul>
+            <li>
+                The class-wise precision, recall, and F1-scores indicate strong performance in most classes, with F1-scores exceeding 0.9 for many classes.
+            </li>
+            <li>
+                Slightly lower performance is observed for challenging classes like "cat" (F1-score: 0.74), suggesting the need for further optimization or augmented training data.
+            </li>
+        </ul>
+    </li>
+    <li>
+        <strong>Learning Curves:</strong>
+        <ul>
+            <li>Gradual convergence of loss and steady improvement of accuracy over epochs indicate effective training.</li>
+            <li>The absence of large gaps between training and validation metrics confirms that overfitting is well-controlled.</li>
+        </ul>
+    </li>
+</ol>	
+	<img src="images/BD_6.jpg" alt="" />
+<h3>Model Limitations</h3>
+<ul>
+    <li>
+        <strong>Resolution Challenges:</strong> 
+        CIFAR-10 images are small (32x32 pixels), which can limit the model's ability to learn fine-grained details, especially for visually similar classes.
+    </li>
+    <li>
+        <strong>Ambiguity in Classes:</strong> 
+        Categories like "cat" and "dog" are prone to confusion because they share overlapping features (e.g., shape, color).
+    </li>
+    <li>
+        <strong>Data Augmentation:</strong> 
+        No data augmentation was applied, which could have enhanced the model’s robustness by exposing it to more diverse transformations of the training images.
+    </li>
+</ul>
 
-                </p>
-                <p>
+<h3>Future Improvements</h3>
+<ul>
+    <li>
+        <strong>Data Augmentation:</strong>
+        <ul>
+            <li>Techniques like rotation, flipping, or cropping can help the model generalize better.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Regularization:</strong>
+        <ul>
+            <li>Adjust dropout rates to further combat overfitting in deeper layers.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Model Architecture:</strong>
+        <ul>
+            <li>Experiment with more advanced architectures like ResNet or DenseNet, which perform better on CIFAR-10.</li>
+        </ul>
+    </li>
+</ul>
 
-                </p> 
-<p>
-
-</p>
-                <p>
-
-<h3>
-  References:
-</h3>
-                
-<p>
-
-</p>
-                <p>
-
-</p>
-                <p>
-
-</p>
-                <p>
-
-</p>
-                <p>
-
-</p>
-                <p>
-
-</p>
-                <p>
-
-</p>
-
-</p>							
-							
+				
                 <ul class="actions special">
 										<li><a href="index.html" class="button">Home</a></li>
 									</ul>
