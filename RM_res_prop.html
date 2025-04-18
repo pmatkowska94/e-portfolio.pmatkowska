@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>My Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>My Portfolio</h1>
+						<h3>Research Methods and Professional Practice</h3>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="icons">
+							<li><a href="https://github.com/pmatkowska94/e-portfolio.pmatkowska" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2>Research Proposal</h2>
+									<p>Outline</p>
+								</header>
+								<img src="images/RM_res_prop.jpg" alt="" style="width: 100%; height: auto; max-width: 100%;" /> 
+                
+        <h2>Research Proposal Outline</h2>
+
+<h3>Project Title:</h3>
+<p>
+  <strong>A Data-Driven Perspective on Predictive Bioreactor Scale-Up: From Industrial CHO Models to iPSC Applications</strong>
+</p>
+
+<h3>Research Question:</h3>
+<p>
+  Can knowledge from CHO bioprocess data be transferred via ML to support predictive scale-up of iPSCs with minimal experimental data?
+</p>
+
+<h3>1. Introduction</h3>
+<ul>
+  <li>Overview of bioprocess scale-up and its challenges</li>
+  <li>Importance of STRs in industrial and academic bioproduction</li>
+  <li>Shift from CHO to iPSC systems in biotechnology</li>
+  <li>Motivation for integrating machine learning into scale-up strategies</li>
+  <li>Research gap: limited ML applications in iPSC bioprocessing</li>
+</ul>
+
+<h3>2. Aim and Objectives</h3>
+<p><strong>Aim:</strong></p>
+<p>
+  To develop and test an ML model that uses CHO bioprocess data to predict iPSC performance at larger scales through transfer learning.
+</p>
+
+<p><strong>Objectives:</strong></p>
+<ul>
+  <li>Collect and preprocess CHO bioprocess data</li>
+  <li>Generate and compile small-scale iPSC data</li>
+  <li>Extract additional iPSC-related data from literature</li>
+  <li>Train baseline ML model on CHO data</li>
+  <li>Fine-tune model with iPSC data</li>
+  <li>Validate model on larger-scale iPSC runs</li>
+  <li>Analyse performance and feature importance (e.g., with SHAP)</li>
+</ul>
+
+<h3>3. Background and Literature Review</h3>
+<ul>
+  <li>CHO systems: standard model in industrial bioprocessing</li>
+  <li>iPSCs: emerging but fragile, with growing industrial relevance</li>
+  <li>Existing ML models for bioprocessing (CHO- and bacteria-based)</li>
+  <li>Transfer learning: concept, use in biology, and relevance here</li>
+  <li>Limitations of current approaches and need for cross-cell type modelling</li>
+</ul>
+
+<h3>4. Methodology</h3>
+
+<p><strong>Data Collection:</strong></p>
+<ul>
+  <li>CHO: literature, databases, demo runs (parameters: VCD, viability, P/V, volume...)</li>
+  <li>iPSC: small-scale lab data (500 mL–5 L), supplemented with public case data</li>
+</ul>
+
+<p><strong>Preprocessing:</strong></p>
+<ul>
+  <li>Data cleaning, unit standardisation, handling missing values, time-series alignment</li>
+</ul>
+
+<p><strong>Model Development:</strong></p>
+<ul>
+  <li>ML model (e.g., neural network) trained on CHO data</li>
+  <li>Fine-tuning with iPSC data to increase specificity</li>
+</ul>
+
+<p><strong>Validation:</strong></p>
+<ul>
+  <li>Predict VCD for larger-scale iPSC runs</li>
+  <li>Evaluate using RMSE, R²</li>
+  <li>SHAP analysis for interpretability</li>
+</ul>
+
+<p><strong>Tools and Libraries:</strong></p>
+<ul>
+  <li>Python, scikit-learn, SHAP</li>
+</ul>
+
+<h3>5. Expected Outcomes</h3>
+<ul>
+  <li>Proof-of-concept: CHO-trained model adapted for iPSC prediction</li>
+  <li>Cost- and time-efficient early-stage iPSC scale-up strategy</li>
+  <li>Insights into key scale-sensitive variables between CHO and iPSCs</li>
+  <li>ML model artefact, visual outputs, final report and presentation</li>
+</ul>
+
+<h3>6. Significance</h3>
+<ul>
+  <li>Demonstrates value of transfer learning in bioprocess modelling</li>
+  <li>Bridges two cell systems with differing complexity</li>
+  <li>Reduces experimental burden in resource-limited settings</li>
+  <li>Supports future work in iPSC-based bioproduction</li>
+</ul>
+
+<h3>7. Ethical Considerations</h3>
+<ul>
+  <li>Transparent use of data with appropriate citations and permissions</li>
+  <li>Model limitations clearly stated to avoid misuse</li>
+  <li>Designed as a supportive tool, not a replacement for experiments</li>
+  <li>Full documentation and reproducibility of results</li>
+</ul>
+
+<h3>8. Timeline</h3>
+<ul>
+  <li><strong>Months 1–3:</strong> Data collection, lab work, preprocessing, literature review</li>
+  <li><strong>Months 3–4:</strong> Model training (CHO), fine-tuning with iPSC data</li>
+  <li><strong>Months 4–5:</strong> Validation, SHAP analysis, visualisation</li>
+  <li><strong>Months 5–6:</strong> Final report and presentation</li>
+</ul>
+
+             
+                <ul class="actions special">
+										<li><a href="index.html" class="button">Home</a></li>
+									</ul>
+                
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; </li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
