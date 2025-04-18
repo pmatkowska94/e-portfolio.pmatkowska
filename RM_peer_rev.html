@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>My Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>My Portfolio</h1>
+						<h3>Research Methods and Professional Practice</h3>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="icons">
+							<li><a href="https://github.com/pmatkowska94/e-portfolio.pmatkowska" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2>Peer Review</h2>
+									<p>Comparative Evaluation of Machine Learning Approaches for Drug–Drug Interaction Prediction</p>
+								</header>
+								<img src="images/RM_peer_rev.jpg" alt="" style="width: 100%; height: auto; max-width: 100%;" /> 
+    <h2>Peer Review: Comparative Evaluation of Machine Learning Approaches for Drug–Drug Interaction Prediction</h2>
+
+<p>
+  This analysis presents a comparative evaluation of two research papers in the field of computational pharmacology, both of which apply machine learning techniques to address challenges related to drug–drug interactions (DDIs), yet through different research methodologies. The first paper utilises regression-based models, while the second adopts deep learning classification. Their respective methodological designs, data strategies, and implications are considered below.
+</p>
+
+<h3>Gill et al., 2023</h3>
+<p>
+  Gill et al., 2023 investigate whether regression-based machine learning models can predict pharmacokinetic DDIs by quantifying changes in drug exposure, instead of merely classifying 
+  interactions. This objective is particularly relevant to current pharmaceutical research, as it offers a method for assessing DDIs early in the drug development pipeline, where experimental 
+  studies are expensive and time-consuming.
+</p>
+<p>
+  The data employed are drawn from two well-established sources—SimCYP and the Washington DDI database—ensuring data credibility. The feature set includes clinical, chemical, and in silico data,
+  and the methodology incorporates preprocessing techniques such as standardisation and one-hot encoding. Notably, the authors use supervised regression models (support vector regression, random 
+  forest, elastic net), evaluated via nested cross-validation. Deep learning was explicitly excluded due to the limited sample size and interpretability challenges. SHAP was used to interpret
+  feature importance, enhancing model transparency.
+</p>
+<p>
+  The research’s conclusions are supported by diverse metrics (R², RMSE, twofold error) and include discussion of key limitations, particularly the imbalance in the distribution of the target 
+  variable. The Kolmogorov–Smirnov test confirmed a model tendency to underperform in predicting strong inhibition cases. SVR performed slightly better, but all models significantly outperformed 
+  the baseline, supporting the feasibility of using early-phase data for prediction.
+</p>
+<p>
+  To enhance this work, the incorporation of techniques such as SMOTE could address underrepresentation of certain classes. Overall, the paper demonstrates robust methodology, sound data 
+  practices, and thoughtful reflection on limitations, making it a strong example of applied regression ML in drug discovery.
+</p>
+
+<h3>Ryu, Kim & Lee, 2018</h3>
+<p>
+  Ryu, Kim & Lee, 2018 take a different approach, using a deep learning architecture to classify 86 types of DDIs using only drug names and chemical structures. The paper addresses a research
+  gap: the lack of interaction-type predictions and the high data requirements of many existing models. It aims to offer a lightweight, accessible model without manual feature engineering.
+</p>
+<p>
+  Using DrugBank as a gold-standard dataset, the model also extends to include drug–food interactions, aiming for clinical applicability. The DeepDDI model is benchmarked against other 
+  classifiers (random forest, KNN), enhancing the credibility of the results. The model’s ability to output natural language interpretations improves accessibility, particularly for clinicians.
+</p>
+<p>
+  The paper acknowledges limitations, including the exclusive focus on pairwise interactions and omission of dosage or patient-specific variables. Despite strong model performance, 
+  further exploration of misclassified cases would strengthen transparency.
+</p>
+<p>
+  Suggestions for improvement include enabling multi-drug interaction handling, incorporating pharmacokinetic variables (e.g., dose, concentration), improving interpretability with visual 
+  outputs and confidence scoring, and addressing class imbalance. Future exploration of advanced architectures like graph neural networks is also noted. Overall, the paper contributes meaningfully
+  to AI in drug safety by lowering barriers to entry and offering a scalable solution.
+</p>
+
+<h3>Conclusion</h3>
+<p>
+  In conclusion, Gill et al., 2023 employ a rigorous regression methodology supported by traditional evaluation metrics and feature interpretability techniques, while Ryu, Kim & Lee, 2018
+  demonstrate the utility of deep learning in predicting complex interaction types with minimal input features.
+</p>
+<p>
+  Both papers contribute significantly to the field by addressing different but complementary aspects of DDI prediction. Their methodological appropriateness, solid data handling, and clear
+  support for conclusions reinforce their scientific value. Suggested enhancements for both works, ranging from handling data imbalance to expanding model complexity and input diversity, 
+  reflect logical next steps in this evolving research domain.
+</p>
+
+<h3>References</h3>
+<ul>
+  <li>
+    Gill J, Moullet M, Martinsson A, Miljković F, Williamson B, Arends RH, Pilla Reddy V. (2023) Evaluating the performance of machine-learning regression models for pharmacokinetic
+    drug-drug interactions. <em>CPT Pharmacometrics Syst Pharmacol</em>. 122-134. doi: 10.1002/psp4.12884.
+  </li>
+  <li>
+    Ryu JY, Kim HU, Lee SY. (2018) Deep learning improves prediction of drug-drug and drug-food interactions. <em>Proc Natl Acad Sci U S A</em>. 115(18):E4304-E4311. doi: 10.1073/pnas.1803294115
+  </li>
+</ul>
+
+             
+                <ul class="actions special">
+										<li><a href="index.html" class="button">Home</a></li>
+									</ul>
+                
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; </li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
