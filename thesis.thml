@@ -1,8 +1,8 @@
 <article>
     <header>
-        <h2><a href="pdfs/your-document-name.pdf" target="_blank">Developed Predictive ANN Modelling Framework for Scale-Up</a></h2>
+        <h2><a href="Capstone MSC Data Science.pdf" target="_blank">Developed Predictive ANN Modelling Framework for Scale-Up</a></h2>
     </header>
-    <a href="pdfs/your-document-name.pdf" target="_blank" class="image fit"><img src="images/your-image-name.jpg" alt="Scale-up Predictive ANN Modelling" /></a>
+    <a href="Capstone MSC Data Science.pdf" target="_blank" class="image fit"><img src="images/thesis.jpg" alt="Scale-up Predictive ANN Modelling" /></a>
     <p>Scale-up remains one of the major challenges in modern biomanufacturing of therapeutic products. There is currently no standardised, data-driven framework to support efficient scaleup of cell-based processes, as existing datasets are typically small and research remains costly and resource-intensive. This study therefore aimed to develop a data pipeline for a predictive model capable of transferring knowledge...</p>
     <ul class="actions special">
         <li><a href="Capstone MSC Data Science.pdf" target="_blank" class="button">View PDF</a></li>
